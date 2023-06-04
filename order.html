@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="order-container">
+      <header>
+        <div class="logo">
+          <div class="logo-container">
+            <img class="logoImg" src="images/headerPng/Logo.png" alt="Logo" />
+            <label for="logo">Pizzanio</label>
+          </div>
+        </div>
+        <div class="name-mini">
+          <span>Pizzanio</span>
+        </div>
+        <ul class="headerMenu">
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="menu.html">Меню</a></li>
+          <li><a href="order.html">Замовлення</a></li>
+          <li><a href="aboutUs.html">Про нас</a></li>
+        </ul>
+        <div class="settings">
+
+          <div class="set">
+            <img
+              class="settings-lang"
+              src="images/headerPng/iconoir_language.png"
+              alt="Language"
+            />
+            <a class="link-to-mini" href="mini-menu.html">            
+              <img
+              class="burger"
+              src="images/headerPng/sendvich.png"
+              alt="Menu"
+            /></a>
+
+            <div class="langWindow">
+              <span>Українська</span>
+              <div></div>
+              <span>English</span>
+            </div>
+          </div>
+          <img class="icon" src="images/headerPng/Vector.png" alt="Pizza" />
+        </div>
+
+      </header>
+      <main class="main-3">
+        <section class="order-section">
+          <h2 class="order-title">Ваше Замовлення</h2>
+          <h3 class="order-h3">Lorem ipsum:</h3>
+          <p class="order-p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </p>
+          <h3 class="order-h3">Lorem ipsum:</h3>
+          <p class="order-p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </p>
+          <h3 class="order-h3">Lorem ipsum:</h3>
+          <p class="order-p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </p>
+          <h3 class="order-h3">Lorem ipsum:</h3>
+          <p class="order-p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </p>
+
+          <p class="order-p para-info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </section>
+        <section class="form-section">
+          <form>
+            <h2 class="form-title">Lorem ipsum</h2>
+            <input
+              class="inp"
+              type="text"
+              data-val="true"
+              name="name"
+              id="name"
+              data-required="Вкажіть ім'я"
+              placeholder="Введіть ім'я"
+              data-error-label="namelErrorLabel"
+            />
+            <span class="message" id="namelErrorLabel">Помилка</span>
+
+            <input
+              class="inp"
+              name="city"
+              type="text"
+              data-val="true"
+              id="city"
+              data-required="Вкажіть назву міста"
+              placeholder="Місто"
+              data-error-label="cityErrorLabel"
+            />
+            <span class="message" id="cityErrorLabel">Помилка</span>
+            <input
+              class="inp"
+              name="email"
+              id="email"
+              type="email"
+              data-val="true"
+              data-required="Введіть Email"
+              placeholder="Введіть email"
+              
+              data-pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+              data-error-label="emailError"
+            />
+            <span class="message" id="emailError">Помилка</span>
+            <input
+              class="inp"
+              name="phone"
+              id="phone"
+              type="text"
+              data-val="true"
+              data-required="Укажіть номер у форматі ХХХХХХХХХХ"
+              data-pattern="\b[+]?[-0-9\(\) ]{11,20}\b"
+              placeholder="Вкажіть номер телефону"
+              data-error-label="phoneError"
+            />
+            <span class="message" id="phoneError">Помилка</span>
+            <input class="submit" type="submit" value="Підтвердити" />
+          </form>
+        </section>
+      </main>
+      <footer>
+        <div class="logo">
+          <div class="logo-container">
+            <img class="logoImg" src="images/headerPng/Logo.png" alt="Logo" />
+            <label for="logo">Pizzanio</label>
+            <span class="logo-mini-footer">Pizzanio</span>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="menu.html">Меню</a></li>
+            <li><a href="order.html">Замовлення</a></li>
+            <li><a href="aboutUs.html">Про нас</a></li>
+          </ul>
+        </nav>
+
+        <ul class="connection">
+          <li><a href="tel:+38012141132">+380 1214 11 32</a></li>
+          <li><a href="tel:+38012141132">+380 1214 11 32</a></li>
+          <li><a href="mailto:example@gmail.com">example@gmail.com</a></li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+  <script src="order.js"></script>
+</html>
